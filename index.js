@@ -5,7 +5,7 @@ const LaunchRequestHandler = {
     return handlerInput.requestEnvelope.request.type === "LaunchRequest";
   },
   handle(handlerInput) {
-    const speechText = "Hello!";
+    const speechText = "Hello World!";
     return handlerInput.responseBuilder.speak(speechText).getResponse();
   }
 };

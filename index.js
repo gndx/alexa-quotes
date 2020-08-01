@@ -1,5 +1,5 @@
 const Alexa = require("ask-sdk-core");
-
+var https = require('https');
 
 function httpGet() {
   return new Promise(((resolve, reject) => {
